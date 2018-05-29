@@ -6,6 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+  count = 0 
   planeteer_calls.each do |call|
     
  
