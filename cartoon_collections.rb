@@ -18,7 +18,21 @@ def long_planeteer_calls(word)
    word.any? {|i| i.length > 4} # Checks each word if they are longer than 4
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(list)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  i = ""
+  list.each do |x| # The following code checks each index to see if it's a type of cheese 
+    if x == cheese_types[0] 
+      i << cheese_types[0]
+    elsif x == cheese_types[1] 
+      i << cheese_types[1]
+        elsif x == cheese_types[1] 
+      i << cheese_types[1]
+    end    
+end
+if i  != ""
+  return i # Returns i as a string value
+else
+  return nil
+end
 end
