@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(name)
       collection = []
-     name.each do |x|
+      name.each do |x|
         collection << x.capitalize + "!"
       end
       collection
